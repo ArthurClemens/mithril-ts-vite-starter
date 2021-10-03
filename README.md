@@ -9,7 +9,7 @@ This is an unopinionated template; aside from Mithril, TypeScript and Vite, the 
 Pull the template files with [degit](https://github.com/Rich-Harris/degit) and install dependencies.
 
 ```
-npx degit ArthurClemens/mithril-vite-starter my-project
+npx degit ArthurClemens/mithril-ts-vite-starter my-project
 cd my-project
 npm install
 ```
