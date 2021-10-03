@@ -1,0 +1,20 @@
+{
+  "name": "mithril-ts-vite-starter",
+  "version": "1.0.0",
+  "description": "Mithril with TypeScript starter template for Vite",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "mithril": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/mithril": "^2.0.8",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.2"
+  },
+  "author": "Arthur Clemens <arthurclemens@gmail.com> (http://visiblearea.com/)",
+  "license": "MIT"
+}
