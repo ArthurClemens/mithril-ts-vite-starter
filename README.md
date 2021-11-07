@@ -20,6 +20,29 @@ npm install
 * `npm run build` - Builds the application
 * `npm run preview` - Serves the build files locally at port 5000
 
+## Using JSX
+
+Uncomment the `esbuild` configuration in `vite.config.js`.
+
+Example `App.tsx`:
+
+```tsx
+import m from "mithril";
+import "./App.css";
+
+export const App = () => {
+  // Local state ...
+  return {
+    view: () => {
+      return (
+        <>
+          <h1>My Mithril App</h1>
+        </>
+      );
+    },
+  };
+};
+```
 
 ## See also
 
